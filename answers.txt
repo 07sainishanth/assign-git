@@ -1,4 +1,9 @@
 What is a gitignore file and what should it include for a Java project?
+=> it is file that informs git which files/docs/folfers to ignore. 
+=> for java it includes *.jar, bin/, build/, *.class, *.log, *.war, *.ear, *.nar
 What does fast-forward in Git mean?
+=> moving the source head to the brach head without an extra merge commit (can be directly change when no conflicts are there)
 Why should you have different branches?
+=> It would allow multiple users to work simultaneously and also would be easy to work on many things at the same time and keep changes of each independent of other.
 In a project how many remote Git repositories do you usually have?
+=> generally 3 (master, develpement, testing).
